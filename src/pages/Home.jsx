@@ -5,11 +5,10 @@ export default function Home() {
   console.log(products);
 
   return (
-    <div className="container mx-auto flex flex-col md:flex-row mt-4">
+    <div className="container mx-auto flex flex-col md:flex-row mt-4 gap-4">
       {/* Sidebar */}
       <aside className="w-full md:w-1/4 bg-slate-100 p-4">
         <h3 className="font-bold mb-2">Filter By Category</h3>
-
         <ul>
           <li>
             <label>
@@ -38,7 +37,24 @@ export default function Home() {
         </ul>
       </aside>
 
-      <main>main</main>
+      {/* Main */}
+      <main className="w-full md:w-3/4">
+        {/* Search Bar and Sorting Options */}
+        <div className="mb-4 flex flex-col md:flex-row justify-between items-center">
+          <input
+            type="text"
+            placeholder="Search products..."
+            className="w-full md:w-1/2 p-2 border border-slate-300 rounded"
+          />
+
+          <select className="mt-2 md:mt-0 p-2 border border-slate-300 rounded w-full md:w-fit">
+            <option value="">Sort By</option>
+            <option value="rating">Rating</option>
+            <option value="priceLowToHigh">Price: Low to High</option>
+            <option value="priceHighToLow">Price: High to Low</option>
+          </select>
+        </div>
+      </main>
     </div>
   );
 }
