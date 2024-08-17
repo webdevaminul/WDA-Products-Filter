@@ -1,3 +1,4 @@
+import ProductCard from "../components/ProductCard";
 import useProducts from "../hooks/useProducts";
 
 export default function Home() {
@@ -53,6 +54,13 @@ export default function Home() {
             <option value="priceLowToHigh">Price: Low to High</option>
             <option value="priceHighToLow">Price: High to Low</option>
           </select>
+        </div>
+
+        {/* Products Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {products.map((product) => (
+            <ProductCard key={product._id} product={product}></ProductCard>
+          ))}
         </div>
       </main>
     </div>

@@ -1,122 +1,362 @@
 [
   {
-    "productName": "Wireless Bluetooth Headphones",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "High-quality wireless Bluetooth headphones with noise-cancellation.",
+    "name": "Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "price": 89.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-01T10:00:00Z"
+  },
+  {
+    "name": "Smartwatch",
+    "description": "Feature-packed smartwatch with fitness tracking.",
+    "price": 199.99,
+    "category": "Electronics",
+    "rating": 4.0,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-02T11:00:00Z"
+  },
+  {
+    "name": "Leather Jacket",
+    "description": "Stylish leather jacket perfect for cool weather.",
+    "price": 129.99,
+    "category": "Fashion",
+    "rating": 4.8,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-03T12:00:00Z"
+  },
+  {
+    "name": "Electric Kettle",
+    "description": "Fast boiling electric kettle with auto shut-off.",
+    "price": 34.99,
+    "category": "Home Appliances",
+    "rating": 4.2,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-04T13:00:00Z"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with powerful sound.",
     "price": 59.99,
     "category": "Electronics",
-    "ratings": 4.5
+    "rating": 3.9,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-05T14:00:00Z"
   },
   {
-    "productName": "Smart LED TV",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "55-inch Smart LED TV with 4K resolution and HDR support.",
+    "name": "Woolen Sweater",
+    "description": "Comfortable woolen sweater for winter.",
+    "price": 49.99,
+    "category": "Fashion",
+    "rating": 4.3,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-06T15:00:00Z"
+  },
+  {
+    "name": "Blender",
+    "description": "High-power blender for smoothies and soups.",
+    "price": 79.99,
+    "category": "Home Appliances",
+    "rating": 4.7,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-07T16:00:00Z"
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Comfortable running shoes for all terrains.",
+    "price": 99.99,
+    "category": "Fashion",
+    "rating": 4.6,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-08T17:00:00Z"
+  },
+  {
+    "name": "Air Fryer",
+    "description": "Healthy air fryer for cooking with less oil.",
+    "price": 119.99,
+    "category": "Home Appliances",
+    "rating": 4.4,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-09T18:00:00Z"
+  },
+  {
+    "name": "4K TV",
+    "description": "Ultra HD 4K TV with smart features.",
     "price": 499.99,
     "category": "Electronics",
-    "ratings": 4.7
+    "rating": 4.9,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-10T19:00:00Z"
   },
   {
-    "productName": "Electric Kettle",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "1.7-liter electric kettle with auto shut-off and boil-dry protection.",
-    "price": 29.99,
-    "category": "Home Appliances",
-    "ratings": 4.2
-  },
-  {
-    "productName": "Running Shoes",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Lightweight running shoes with breathable mesh and cushioned sole.",
-    "price": 74.99,
-    "category": "Footwear",
-    "ratings": 4.8
-  },
-  {
-    "productName": "Gaming Laptop",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "High-performance gaming laptop with NVIDIA graphics and SSD storage.",
-    "price": 1099.99,
-    "category": "Electronics",
-    "ratings": 4.6
-  },
-  {
-    "productName": "Wireless Mouse",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Ergonomic wireless mouse with adjustable DPI settings and USB receiver.",
+    "name": "Cotton T-Shirt",
+    "description": "Soft cotton t-shirt available in multiple colors.",
     "price": 24.99,
-    "category": "Accessories",
-    "ratings": 4.4
+    "category": "Fashion",
+    "rating": 4.1,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-11T20:00:00Z"
   },
   {
-    "productName": "Yoga Mat",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Eco-friendly yoga mat with non-slip surface and comfortable cushioning.",
-    "price": 19.99,
-    "category": "Fitness",
-    "ratings": 4.3
-  },
-  {
-    "productName": "Smartphone",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Latest model smartphone with dual camera, 5G connectivity, and large display.",
-    "price": 699.99,
-    "category": "Electronics",
-    "ratings": 4.9
-  },
-  {
-    "productName": "Microwave Oven",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Compact microwave oven with multiple cooking presets and defrost function.",
-    "price": 89.99,
+    "name": "Coffee Maker",
+    "description": "Programmable coffee maker with a built-in grinder.",
+    "price": 69.99,
     "category": "Home Appliances",
-    "ratings": 4.1
+    "rating": 4.6,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-12T21:00:00Z"
   },
   {
-    "productName": "Digital Camera",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "24MP digital camera with optical zoom and HD video recording.",
+    "name": "Tablet",
+    "description": "Latest tablet with high resolution display.",
+    "price": 249.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-13T22:00:00Z"
+  },
+  {
+    "name": "Denim Jeans",
+    "description": "Classic denim jeans with a modern fit.",
+    "price": 59.99,
+    "category": "Fashion",
+    "rating": 4.3,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-14T23:00:00Z"
+  },
+  {
+    "name": "Dishwasher",
+    "description": "Efficient dishwasher with multiple wash programs.",
+    "price": 399.99,
+    "category": "Home Appliances",
+    "rating": 4.5,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-15T08:00:00Z"
+  },
+  {
+    "name": "Gaming Laptop",
+    "description": "High-performance laptop for gaming.",
+    "price": 1499.99,
+    "category": "Electronics",
+    "rating": 4.8,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-16T09:00:00Z"
+  },
+  {
+    "name": "Winter Coat",
+    "description": "Warm winter coat with a stylish design.",
+    "price": 159.99,
+    "category": "Fashion",
+    "rating": 4.4,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-17T10:00:00Z"
+  },
+  {
+    "name": "Electric Toothbrush",
+    "description": "Advanced electric toothbrush with multiple brushing modes.",
+    "price": 49.99,
+    "category": "Home Appliances",
+    "rating": 4.2,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-18T11:00:00Z"
+  },
+  {
+    "name": "4K Monitor",
+    "description": "Ultra HD 4K monitor with high color accuracy.",
     "price": 349.99,
     "category": "Electronics",
-    "ratings": 4.7
+    "rating": 4.6,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-19T12:00:00Z"
   },
   {
-    "productName": "Office Chair",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Ergonomic office chair with lumbar support and adjustable height.",
-    "price": 129.99,
-    "category": "Furniture",
-    "ratings": 4.5
+    "name": "Yoga Mat",
+    "description": "Non-slip yoga mat for comfortable workouts.",
+    "price": 29.99,
+    "category": "Fashion",
+    "rating": 4.1,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-20T13:00:00Z"
   },
   {
-    "productName": "Blender",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Powerful blender with multiple speed settings and stainless steel blades.",
+    "name": "Rice Cooker",
+    "description": "Multi-functional rice cooker with keep-warm feature.",
+    "price": 59.99,
+    "category": "Home Appliances",
+    "rating": 4.3,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-21T14:00:00Z"
+  },
+  {
+    "name": "Smart TV",
+    "description": "Smart TV with streaming capabilities and voice control.",
+    "price": 699.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-22T15:00:00Z"
+  },
+  {
+    "name": "Denim Jacket",
+    "description": "Classic denim jacket with a relaxed fit.",
+    "price": 79.99,
+    "category": "Fashion",
+    "rating": 4.5,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-23T16:00:00Z"
+  },
+  {
+    "name": "Pressure Cooker",
+    "description": "Durable pressure cooker with safety features.",
     "price": 39.99,
     "category": "Home Appliances",
-    "ratings": 4.6
+    "rating": 4.4,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-24T17:00:00Z"
   },
   {
-    "productName": "Smartwatch",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Water-resistant smartwatch with fitness tracking and customizable watch faces.",
-    "price": 199.99,
-    "category": "Wearable",
-    "ratings": 4.8
+    "name": "Noise Cancelling Headphones",
+    "description": "Comfortable headphones with active noise cancelling.",
+    "price": 129.99,
+    "category": "Electronics",
+    "rating": 4.6,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-25T18:00:00Z"
   },
   {
-    "productName": "Desk Lamp",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "LED desk lamp with adjustable brightness and flexible gooseneck.",
-    "price": 34.99,
-    "category": "Accessories",
-    "ratings": 4.4
+    "name": "Down Jacket",
+    "description": "Insulated down jacket for cold weather.",
+    "price": 149.99,
+    "category": "Fashion",
+    "rating": 4.7,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-26T19:00:00Z"
   },
   {
-    "productName": "Vacuum Cleaner",
-    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
-    "description": "Bagless vacuum cleaner with powerful suction and easy-to-clean dustbin.",
-    "price": 89.99,
+    "name": "Digital Camera",
+    "description": "High-resolution digital camera for photography enthusiasts.",
+    "price": 599.99,
+    "category": "Electronics",
+    "rating": 4.8,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-27T20:00:00Z"
+  },
+  {
+    "name": "Electric Grill",
+    "description": "Indoor electric grill with adjustable temperature control.",
+    "price": 79.99,
     "category": "Home Appliances",
-    "ratings": 4.2
+    "rating": 4.3,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-28T21:00:00Z"
+  },
+  {
+    "name": "Running Socks",
+    "description": "Comfortable and breathable running socks.",
+    "price": 15.99,
+    "category": "Fashion",
+    "rating": 4.0,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-29T22:00:00Z"
+  },
+  {
+    "name": "Electric Mixer",
+    "description": "Handheld electric mixer for baking.",
+    "price": 39.99,
+    "category": "Home Appliances",
+    "rating": 4.1,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-30T23:00:00Z"
+  },
+  {
+    "name": "Wireless Charger",
+    "description": "Fast wireless charger for smartphones.",
+    "price": 29.99,
+    "category": "Electronics",
+    "rating": 4.2,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-08-31T08:00:00Z"
+  },
+  {
+    "name": "Winter Boots",
+    "description": "Insulated winter boots for snowy conditions.",
+    "price": 89.99,
+    "category": "Fashion",
+    "rating": 4.6,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-01T09:00:00Z"
+  },
+  {
+    "name": "Air Purifier",
+    "description": "High-efficiency air purifier for cleaner air.",
+    "price": 129.99,
+    "category": "Home Appliances",
+    "rating": 4.4,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-02T10:00:00Z"
+  },
+  {
+    "name": "Portable Charger",
+    "description": "Compact portable charger with high capacity.",
+    "price": 24.99,
+    "category": "Electronics",
+    "rating": 4.3,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-03T11:00:00Z"
+  },
+  {
+    "name": "Summer Dress",
+    "description": "Lightweight summer dress with floral patterns.",
+    "price": 69.99,
+    "category": "Fashion",
+    "rating": 4.5,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-04T12:00:00Z"
+  },
+  {
+    "name": "Electric Shaver",
+    "description": "Precision electric shaver for a close shave.",
+    "price": 54.99,
+    "category": "Home Appliances",
+    "rating": 4.2,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-05T13:00:00Z"
+  },
+  {
+    "name": "Fitness Tracker",
+    "description": "Wearable fitness tracker with heart rate monitoring.",
+    "price": 89.99,
+    "category": "Electronics",
+    "rating": 4.4,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-06T14:00:00Z"
+  },
+  {
+    "name": "Sunglasses",
+    "description": "UV-protected sunglasses with a stylish frame.",
+    "price": 49.99,
+    "category": "Fashion",
+    "rating": 4.1,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-07T15:00:00Z"
+  },
+  {
+    "name": "Electric Heater",
+    "description": "Portable electric heater with adjustable settings.",
+    "price": 59.99,
+    "category": "Home Appliances",
+    "rating": 4.3,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-08T16:00:00Z"
+  },
+  {
+    "name": "Camping Tent",
+    "description": "Durable camping tent for outdoor adventures.",
+    "price": 199.99,
+    "category": "Outdoor",
+    "rating": 4.7,
+    "image": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "creationDate": "2024-09-09T17:00:00Z"
   }
 ]
