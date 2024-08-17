@@ -27,12 +27,15 @@ async function run() {
     const productCollection = client.db("shopx").collection("products");
 
     app.get("/products", async (req, res) => {
-      const { search = "" } = req.query;
+      const { search = "", category = "" } = req.query;
 
       const filter = {};
 
       if (search) {
         filter.name = { $regex: search, $options: "i" };
+      }
+      if (category) {
+        filter.category = category;
       }
 
       console.log(search);
