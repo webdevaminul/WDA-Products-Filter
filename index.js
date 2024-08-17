@@ -27,7 +27,9 @@ async function run() {
     const productCollection = client.db("shopx").collection("products");
 
     app.get("/products", async (req, res) => {
-      const { search = "", category = "", sort = "" } = req.query;
+      const { search = "", category = "", sort = "", page = 1 } = req.query;
+      const limit = 8;
+      const skip = (page - 1) * limit;
 
       const filter = {};
       if (search) {
@@ -46,8 +48,15 @@ async function run() {
         sortOption.price = -1;
       }
 
-      const products = await productCollection.find(filter).sort(sortOption).toArray();
-      res.json({ products });
+      const totalProducts = await productCollection.countDocuments(filter);
+
+      const products = await productCollection
+        .find(filter)
+        .sort(sortOption)
+        .skip(skip)
+        .limit(limit)
+        .toArray();
+      res.json({ totalProducts, products });
     });
 
     // Send a ping to confirm a successful connection
