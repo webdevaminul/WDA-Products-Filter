@@ -3,8 +3,12 @@ import ProductCard from "../components/ProductCard";
 import useProducts from "../hooks/useProducts";
 
 export default function Home() {
+  const categories = ["Electronics", "Fashion", "Home Appliances"];
   const [searchTerm, setSearchTerm] = useState("");
-  const [products] = useProducts(searchTerm);
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [products] = useProducts(searchTerm, selectedCategory);
+
+  console.log(selectedCategory);
 
   return (
     <div className="container mx-auto flex flex-col md:flex-row mt-4 gap-4">
@@ -14,28 +18,35 @@ export default function Home() {
         <ul>
           <li>
             <label>
-              <input type="radio" name="category" className="mr-2" />
+              <input
+                type="radio"
+                name="category"
+                className="mr-2"
+                value=""
+                onChange={(e) => {
+                  setSelectedCategory("");
+                }}
+              />
               All Categories
             </label>
           </li>
-          <li>
-            <label>
-              <input type="radio" name="category" className="mr-2" />
-              Electronics
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" name="category" className="mr-2" />
-              Fashion
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" name="category" className="mr-2" />
-              Home Appliances
-            </label>
-          </li>
+
+          {categories.map((category) => (
+            <li key={category}>
+              <label>
+                <input
+                  type="radio"
+                  name="category"
+                  value={category}
+                  onChange={(e) => {
+                    setSelectedCategory(e.target.value);
+                  }}
+                  className="mr-2"
+                />
+                {category}
+              </label>
+            </li>
+          ))}
         </ul>
       </aside>
 
