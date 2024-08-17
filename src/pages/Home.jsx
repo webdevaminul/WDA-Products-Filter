@@ -6,9 +6,10 @@ export default function Home() {
   const categories = ["Electronics", "Fashion", "Home Appliances"];
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [products] = useProducts(searchTerm, selectedCategory);
+  const [sortOption, setSortOption] = useState("");
+  const [products] = useProducts(searchTerm, selectedCategory, sortOption);
 
-  console.log(selectedCategory);
+  console.log(sortOption);
 
   return (
     <div className="container mx-auto flex flex-col md:flex-row mt-4 gap-4">
@@ -62,7 +63,11 @@ export default function Home() {
             onChange={(e) => setSearchTerm(e.target.value)}
           />
 
-          <select className="mt-2 md:mt-0 p-2 border border-slate-300 rounded w-full md:w-fit">
+          <select
+            className="mt-2 md:mt-0 p-2 border border-slate-300 rounded w-full md:w-fit"
+            value={sortOption}
+            onChange={(e) => setSortOption(e.target.value)}
+          >
             <option value="">Sort By</option>
             <option value="rating">Rating</option>
             <option value="priceLowToHigh">Price: Low to High</option>
