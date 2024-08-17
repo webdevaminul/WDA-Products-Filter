@@ -14,7 +14,7 @@ export default function useProducts(searchTerm, selectedCategory, sortOption, cu
         sort: sortOption,
         page: currentPage,
       }).toString();
-      const res = await fetch(`http://localhost:5000/products?${query}`);
+      const res = await fetch(`https://job-task-server-lime.vercel.app/products?${query}`);
       return res.json();
     },
   });
