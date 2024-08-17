@@ -27,8 +27,17 @@ async function run() {
     const productCollection = client.db("shopx").collection("products");
 
     app.get("/products", async (req, res) => {
-      const result = await productCollection.find().toArray();
-      res.json(result);
+      const { search = "" } = req.query;
+
+      const filter = {};
+
+      if (search) {
+        filter.name = { $regex: search, $options: "i" };
+      }
+
+      console.log(search);
+      const products = await productCollection.find(filter).toArray();
+      res.json({ products });
     });
 
     // Send a ping to confirm a successful connection
