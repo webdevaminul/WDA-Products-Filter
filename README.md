@@ -1,8 +1,10 @@
-# React + Vite
+# Frontend - ShopX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the ShopX e-commerce application. It is built using React and deployed on Firebase Hosting.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Product search and filtering
+- Product sorting by price and rating
+- Pagination
+- Responsive design with a mobile-first approach
