@@ -27,10 +27,9 @@ async function run() {
     const productCollection = client.db("shopx").collection("products");
 
     app.get("/products", async (req, res) => {
-      const { search = "", category = "" } = req.query;
+      const { search = "", category = "", sort = "" } = req.query;
 
       const filter = {};
-
       if (search) {
         filter.name = { $regex: search, $options: "i" };
       }
@@ -38,8 +37,16 @@ async function run() {
         filter.category = category;
       }
 
-      console.log(search);
-      const products = await productCollection.find(filter).toArray();
+      const sortOption = {};
+      if (sort === "rating") {
+        sortOption.rating = -1;
+      } else if (sort === "priceLowToHigh") {
+        sortOption.price = 1;
+      } else if (sort === "priceHighToLow") {
+        sortOption.price = -1;
+      }
+
+      const products = await productCollection.find(filter).sort(sortOption).toArray();
       res.json({ products });
     });
 
