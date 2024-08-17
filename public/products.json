@@ -1,0 +1,122 @@
+[
+  {
+    "productName": "Wireless Bluetooth Headphones",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "High-quality wireless Bluetooth headphones with noise-cancellation.",
+    "price": 59.99,
+    "category": "Electronics",
+    "ratings": 4.5
+  },
+  {
+    "productName": "Smart LED TV",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "55-inch Smart LED TV with 4K resolution and HDR support.",
+    "price": 499.99,
+    "category": "Electronics",
+    "ratings": 4.7
+  },
+  {
+    "productName": "Electric Kettle",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "1.7-liter electric kettle with auto shut-off and boil-dry protection.",
+    "price": 29.99,
+    "category": "Home Appliances",
+    "ratings": 4.2
+  },
+  {
+    "productName": "Running Shoes",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Lightweight running shoes with breathable mesh and cushioned sole.",
+    "price": 74.99,
+    "category": "Footwear",
+    "ratings": 4.8
+  },
+  {
+    "productName": "Gaming Laptop",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "High-performance gaming laptop with NVIDIA graphics and SSD storage.",
+    "price": 1099.99,
+    "category": "Electronics",
+    "ratings": 4.6
+  },
+  {
+    "productName": "Wireless Mouse",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Ergonomic wireless mouse with adjustable DPI settings and USB receiver.",
+    "price": 24.99,
+    "category": "Accessories",
+    "ratings": 4.4
+  },
+  {
+    "productName": "Yoga Mat",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Eco-friendly yoga mat with non-slip surface and comfortable cushioning.",
+    "price": 19.99,
+    "category": "Fitness",
+    "ratings": 4.3
+  },
+  {
+    "productName": "Smartphone",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Latest model smartphone with dual camera, 5G connectivity, and large display.",
+    "price": 699.99,
+    "category": "Electronics",
+    "ratings": 4.9
+  },
+  {
+    "productName": "Microwave Oven",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Compact microwave oven with multiple cooking presets and defrost function.",
+    "price": 89.99,
+    "category": "Home Appliances",
+    "ratings": 4.1
+  },
+  {
+    "productName": "Digital Camera",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "24MP digital camera with optical zoom and HD video recording.",
+    "price": 349.99,
+    "category": "Electronics",
+    "ratings": 4.7
+  },
+  {
+    "productName": "Office Chair",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Ergonomic office chair with lumbar support and adjustable height.",
+    "price": 129.99,
+    "category": "Furniture",
+    "ratings": 4.5
+  },
+  {
+    "productName": "Blender",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Powerful blender with multiple speed settings and stainless steel blades.",
+    "price": 39.99,
+    "category": "Home Appliances",
+    "ratings": 4.6
+  },
+  {
+    "productName": "Smartwatch",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Water-resistant smartwatch with fitness tracking and customizable watch faces.",
+    "price": 199.99,
+    "category": "Wearable",
+    "ratings": 4.8
+  },
+  {
+    "productName": "Desk Lamp",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "LED desk lamp with adjustable brightness and flexible gooseneck.",
+    "price": 34.99,
+    "category": "Accessories",
+    "ratings": 4.4
+  },
+  {
+    "productName": "Vacuum Cleaner",
+    "productImage": "https://st4.depositphotos.com/13324256/24475/i/450/depositphotos_244751462-stock-photo-top-view-product-lettering-made.jpg",
+    "description": "Bagless vacuum cleaner with powerful suction and easy-to-clean dustbin.",
+    "price": 89.99,
+    "category": "Home Appliances",
+    "ratings": 4.2
+  }
+]
