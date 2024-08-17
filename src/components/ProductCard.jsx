@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ProductCard({ product }) {
-  console.log("inside product", product);
   return (
     <div className="bg-white shadow-md rounded-md overflow-hidden">
       <img src={product.image} alt="Product Name" className="w-full h-48 object-cover" />

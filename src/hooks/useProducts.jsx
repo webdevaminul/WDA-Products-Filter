@@ -1,17 +1,20 @@
 import { useQuery } from "@tanstack/react-query";
 
-export default function useProducts() {
+export default function useProducts(searchTerm) {
   const {
-    data: products = [],
+    data: productsData = { products: [] },
     isLoading,
     refetch,
   } = useQuery({
-    queryKey: ["products"],
+    queryKey: ["products", searchTerm],
     queryFn: async () => {
-      const res = await fetch("http://localhost:5000/products");
+      const query = new URLSearchParams({
+        search: searchTerm,
+      });
+      const res = await fetch(`http://localhost:5000/products?${query}`);
       return res.json();
     },
   });
 
-  return [products, isLoading, refetch];
+  return [productsData.products, isLoading, refetch];
 }

@@ -1,9 +1,10 @@
+import { useState } from "react";
 import ProductCard from "../components/ProductCard";
 import useProducts from "../hooks/useProducts";
 
 export default function Home() {
-  const [products] = useProducts();
-  console.log(products);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [products] = useProducts(searchTerm);
 
   return (
     <div className="container mx-auto flex flex-col md:flex-row mt-4 gap-4">
@@ -46,6 +47,8 @@ export default function Home() {
             type="text"
             placeholder="Search products..."
             className="w-full md:w-1/2 p-2 border border-slate-300 rounded"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
           />
 
           <select className="mt-2 md:mt-0 p-2 border border-slate-300 rounded w-full md:w-fit">
