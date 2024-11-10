@@ -14,7 +14,11 @@ export default function useProducts(searchTerm, selectedCategory, sortOption, cu
         sort: sortOption,
         page: currentPage,
       }).toString();
-      const res = await fetch(`https://job-task-server-ruby-pi.vercel.app/products?${query}`);
+      const baseURL =
+        process.env.NODE_ENV === "development"
+          ? "http://localhost:5000"
+          : "https://job-task-server-ruby-pi.vercel.app";
+      const res = await fetch(`${baseURL}/products?${query}`);
       return res.json();
     },
   });

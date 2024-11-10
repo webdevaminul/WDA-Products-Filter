@@ -21,7 +21,7 @@ export default function Home() {
   const shouldShowPagination = totalProducts > productsPerPage;
 
   return (
-    <div className="container mx-auto flex flex-col md:flex-row mt-4 gap-4">
+    <div className="container mx-auto min-h-[calc(100vh-70px)] flex flex-col md:flex-row mt-4 gap-4">
       {/* Sidebar */}
       <aside className="w-full md:w-1/4 bg-slate-100 p-4">
         <h3 className="font-bold mb-2">Filter By Category</h3>

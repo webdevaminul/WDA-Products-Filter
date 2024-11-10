@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="navbar container mx-auto">
         <div className="flex-1">
           <Link to="/" className="text-xl">
-            WDA Product Filter
+            WDA Products Filter
           </Link>
         </div>
       </div>

@@ -8,10 +8,9 @@ app.use(cors());
 app.use(express.json());
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
-const uri = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@cluster0.k8que7r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
+const client = new MongoClient(process.env.MONGODB_URI, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
@@ -21,7 +20,7 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
-    const productCollection = client.db("shopx").collection("products");
+    const productCollection = client.db("wda-products-filter").collection("products");
 
     app.get("/products", async (req, res) => {
       const { search = "", category = "", sort = "", page = 1 } = req.query;
@@ -62,7 +61,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Shop X server is running!");
+  res.send("WDA Products Filter server is running!");
 });
 
 app.listen(port, () => {
