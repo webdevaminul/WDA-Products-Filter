@@ -17,7 +17,7 @@ export default function useProducts(searchTerm, selectedCategory, sortOption, cu
       const baseURL =
         process.env.NODE_ENV === "development"
           ? "http://localhost:5000"
-          : "https://job-task-server-ruby-pi.vercel.app";
+          : "https://wda-products-filter-api.vercel.app";
       const res = await fetch(`${baseURL}/products?${query}`);
       return res.json();
     },
