@@ -46,43 +46,47 @@ To run this project locally, follow these steps:
    - frontend: Contains the client-side code (React application).
    - backend: Contains the server-side code (Express, MongoDB).
 
-4. **Running the Backend**: Open a new terminal and navigate to the backend folder:
+4. **Running the Backend**:
+
+   - Open a new terminal and navigate to the backend folder:
 
    ```bash
    cd backend
    ```
 
-   **Install the required dependencies**:
+   - Install the required dependencies:
 
    ```bash
     npm install
    ```
 
-   **Setup .env**:
-   Create a .env file in the backend folder and configure any necessary environment variables (e.g., MongoDB URI).
+   - Setup .env:
+     Create a .env file in the backend folder and configure any necessary environment variables (e.g., MongoDB URI).
 
-   **Start the backend server**:
+   - Start the backend server:
 
    ```bash
    npm run dev
    ```
 
-5. **Running the Frontend**: Open a new terminal and navigate to the frontend folder:
+5. **Running the Frontend**:
+
+   - Open a new terminal and navigate to the frontend folder:
 
    ```bash
    cd frontend
    ```
 
-   **Install the required dependencies**:
+   - Install the required dependencies:
 
    ```bash
    npm install
    ```
 
-   **Setup .env**:
-   Create a .env file in the frontend folder and configure any necessary environment variables (e.g., NODE_ENV).
+   - Setup .env:
+     Create a .env file in the frontend folder and configure any necessary environment variables (e.g., NODE_ENV).
 
-   **Start the React App**:
+   - Start the React App:
 
    ```bash
     npm run dev
