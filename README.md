@@ -46,7 +46,7 @@ To run this project locally, follow these steps:
    - frontend: Contains the client-side code (React application).
    - backend: Contains the server-side code (Express, MongoDB).
 
-4. **Running the Backend**: open a new terminal and navigate to the backend folder:
+4. **Running the Backend**: Open a new terminal and navigate to the backend folder:
 
    ```bash
    cd backend
@@ -58,7 +58,8 @@ To run this project locally, follow these steps:
     npm install
    ```
 
-   **Setup .env**: Create a .env file in the backend folder and configure any necessary environment variables (e.g., MongoDB URI).
+   **Setup .env**:
+   Create a .env file in the backend folder and configure any necessary environment variables (e.g., MongoDB URI).
 
    **Start the backend server**:
 
@@ -66,7 +67,7 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
-5. **Running the Frontend**: open a new terminal and navigate to the frontend folder:
+5. **Running the Frontend**: Open a new terminal and navigate to the frontend folder:
 
    ```bash
    cd frontend
@@ -78,7 +79,8 @@ To run this project locally, follow these steps:
    npm install
    ```
 
-   **Setup .env**: Create a .env file in the frontend folder and configure any necessary environment variables (e.g., NODE_ENV).
+   **Setup .env**:
+   Create a .env file in the frontend folder and configure any necessary environment variables (e.g., NODE_ENV).
 
    **Start the React App**:
 
@@ -86,15 +88,9 @@ To run this project locally, follow these steps:
     npm run dev
    ```
 
-6. **Accessing the Application**:
-
-- Ensure both the backend and frontend servers are running.
-- Visit http://localhost:3000 in your browser to view backend.
-- Visit http://localhost:5000 in your browser to view react application.
-
 ## Important
 
-Ensure you have the required environment variables set up in the .env file for smooth operation.
+Ensure both the backend and frontend servers are running and you have the required environment variables set up in the .env file for smooth operation.
 
 ## Creadit & Contributions
 
